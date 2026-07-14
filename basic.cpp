@@ -84,21 +84,43 @@
 
 // Convert ASCII Value to Corresponding Character Value
 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   int x = 53;
+//   cout << "the corresponding character vlaue of x is:";
+//   cout << char(x) << endl;
+
+//   int y = 65;
+//   cout << "the corresponding character value of y is:";
+//   cout << char(y) << endl;
+
+//   int z = 97;
+//   cout << "the corresponding character value of z is:";
+//   cout << char(z) << endl;
+
+//   return 0;
+// }
+
+// Escape Sequence in C++
+
 #include <iostream>
 using namespace std;
+
 int main()
 {
-  int x = 53;
-  cout << "the corresponding character vlaue of x is:";
-  cout << char(x) << endl;
+  char a = 'G';
 
-  int y = 65;
-  cout << "the corresponding character value of y is:";
-  cout << char(y) << endl;
+  // horizontal tab
+  char b = '\t';
+  char c = 'F';
+  char d = '\t';
+  char e = 'G';
 
-  int z = 97;
-  cout << "the corresponding character value of z is:";
-  cout << char(z) << endl;
-
+  // new line
+  char f = '\n';
+  string s = "is the best";
+  cout << a << b << c << d << e << f << s;
   return 0;
 }
