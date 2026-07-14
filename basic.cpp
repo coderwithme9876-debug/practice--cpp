@@ -67,17 +67,38 @@
 
 // Convert Character Value to Corresponding ASCII Value
 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+
+//   char c = 'c';
+//   cout << "the corresponding ASCII value of 'c':";
+//   cout << int(c) << endl;
+
+//   c = 'd';
+//   cout << "the corresponding ASCII value of 'd': ";
+//   cout << int(c);
+//   return 0;
+// }
+
+// Convert ASCII Value to Corresponding Character Value
+
 #include <iostream>
 using namespace std;
 int main()
 {
+  int x = 53;
+  cout << "the corresponding character vlaue of x is:";
+  cout << char(x) << endl;
 
-  char c = 'c';
-  cout << "the corresponding ASCII value of 'c':";
-  cout << int(c) << endl;
+  int y = 65;
+  cout << "the corresponding character value of y is:";
+  cout << char(y) << endl;
 
-  c = 'd';
-  cout << "the corresponding ASCII value of 'd': ";
-  cout << int(c);
+  int z = 97;
+  cout << "the corresponding character value of z is:";
+  cout << char(z) << endl;
+
   return 0;
 }
